@@ -2,9 +2,10 @@
   "name": "superstore",
   "version": "1.0.0",
   "description": "Aplicação feita no curso Clean Code e Clean Architecture - Turma 8 (do Rodrigo Branas)",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "start": "ts-node src/serve.ts"
   },
   "repository": {
     "type": "git",
